@@ -6,7 +6,7 @@ function HomePage (){
 
   return (
     <div>
-      <h1>Home page</h1>
+      <h1 style={{textAlign: 'center'}}>Home page</h1>
       <EventList items={featuresEvents}/>
     </div>
   )
